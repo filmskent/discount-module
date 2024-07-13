@@ -1,0 +1,31 @@
+{
+    "discounts": [
+      {
+        "type": "FixedAmount",
+        "amount": 50
+      },
+      {
+        "type": "Percentage",
+        "percentage": 10
+      },
+      {
+        "type": "DiscountByPoints",
+        "points": 500
+      },
+      {
+        "type": "OnTop",
+        "category": "Accessories",
+        "amount": 30
+      },
+      {
+        "type": "OnTop",
+        "category": "Clothing",
+        "amount": 15
+      },
+      {
+        "type": "SpecialCampaign",
+        "everyXTHB": 300,
+        "discountYTHB": 40
+      }
+    ]
+  }

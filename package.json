@@ -1,0 +1,15 @@
+{
+    "name": "discount-module",
+    "version": "1.0.0",
+    "description": "Module for applying discounts to a shopping cart based on JSON file",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "author": "Supawit Kunopagarnwong",
+    "license": "MIT",
+    "dependencies": {
+      "fs": "^0.0.1-security",
+      "path": "^0.12.7"
+    }
+  }
